@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Titillium+Web:wght@400;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 65px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #222;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #222;
+}
+
+h4 {
+  font-size: 30px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 18px;
+  /* color: #465b52; */
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 0.2s ease;
+}
+
+
+/* SECTION 1 */
+.section-1 {
+  max-width: 1040px;
+  margin: auto;
+  margin-top: 60px;
+  /* margin-bottom: 200px; */
+}
+
+.section-1-header {
+  max-height: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1-header-options a {
+  text-decoration: none;
+  color: green;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.section-1-header-logo img {
+  height: 100%;
+}
+
+.section-1-header-options {
+  display: flex;
+  align-items: center;
+}
+
+.section-1-header-options div {
+  opacity: .8;
+  font-size: 18px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin: 0 20px 0 36px;
+}
+
+#newsletter {
+  background-image: url(b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+
+#newsletter span {
+  color: yellow;
+}
+
+#newsletter input {
+  height: 3.12rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+  background-color: green;
+  color: white;
+  height: 3.12rem;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#newsletter .row .form {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+#footer span {
+  color: #606a79;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#footer ul {
+  font-size: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+#footer .contact span {
+  font-weight: 700;
+}
+
+#footer .contact p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#footer .contact .row .install {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#footer .contact .row .logo img {
+  width: 100px;
+  padding-bottom: 10px;
+  height: 5rem;
+}
+
+/* comment */
+.home-heading{
+  text-align: center;
+  font-size: 100px;
+/* font-family: 'Montserrat', sans-serif; */
+  height: 90vh;
+  letter-spacing: -3px;
+  font-weight: 900;
+  padding: 7% 5%;
+}
+
+.home-heading h1{
+  font-size: 4.8rem;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.section-1-main-3 {
+  margin-top: 58px;
+}
+
+.section-1-main-3 button {
+  padding: 20px 65px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.intro{
+  background-image: url('images/prakbg.jpg');
+    background-size: cover;
+    padding: 5%;
+    /* margin: 2.5%; */
+    color: white;
+    height: 75vh;
+    margin-bottom: 4%;
+}
+
+.intro-heading{
+    margin-bottom: 4%;
+}
+
+.intro-heading h1{
+  color: white;
+  font-size: 3.4rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+.prak{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.intro-content{
+    font-size: 1.2rem;
+    line-height: 2.5;
+}
+
+.main-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.center-image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pcircle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.circle1 {
+    
+    top: 25%;
+    left: 25%;
+}
+
+.circle2 {
+    top: 25%;
+    right: 25%;
+}
+
+.circle3 {
+    bottom: -40%;
+    right: 45%;
+}
+
+.info {
+    
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Kaushan Script',cursive;
+    text-align: center;
+    padding: 5px;
+}
+
+.pcircle:hover {
+    transform: scale(1.25);
+    background-color: black;
+}
+
+/* .types-descp{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.type{
+    border: 1px solid green;
+    border-top: 3px solid green;
+    margin-right: 15px ;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: border-top 0.15s ease;
+    opacity: 0.7;
+
+}
+
+
+.dark{
+    background-color:#2d662d;    
+    color: white; 
+    border-top : 5px solid green;
+    opacity: 1;
+    
+    padding-top: 10px;
+    display: block;
+}
+
+.dark h2{
+  color: #ECECEC;
+}
+
+
+.type h2{
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+*/
+.type-info{
+    display: none;
+    margin: 5%;
+} 
+
+
+
+/* Cards */
+.container {
+  position: relative;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  position: relative;
+  width: 330px;
+  height: 460px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, .2); */
+  transition: .5s ease-in-out;
+}
+
+.container:hover .card {
+  /* filter: blur(20px); */
+  transform: scale(.9);
+  opacity: 1;
+}
+
+.container .card:hover {
+  /* filter: blur(0); */
+  transform: scale(1);
+  opacity: 1;
+}
+
+.container .card:hover .circle {
+  clip-path: circle(600px);
+}
+
+.container .card:hover .content p {
+  color: #fff;
+}
+
+/* .container .card:hover .content a {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .2),
+              -1px -1px 2px rgba(255, 255, 255, .4);
+} */
+
+/* .container .card .content a:active {
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .1),
+              inset 5px 5px 5px rgba(0, 0, 0, .04),
+              inset -5px -5px 5px rgba(255, 255, 255, .07),
+              inset -1px -1px 2px rgba(255, 255, 255, .4);
+} */
+
+.container .card .circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(165px at center 0);
+  text-align: center;
+  transition: 1s ease-in-out;
+}
+
+.container .card h2 {
+  color: #fff;
+  font-size: 4.5em;
+  padding: 30px 0;
+}
+
+.container .card .content {
+  position: absolute;
+  
+  bottom: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .content p {
+  color: #666;
+  transition: .5s ease-in-out;
+}
+
+.container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: .8s ease-in-out;
+}
+
+.container .card:nth-child(1) .circle
+{
+  background: #519751;
+}
+
+.container .card:nth-child(1) .content a {
+  background: rgb(76, 143, 135);
+  color: white;
+}
+
+.container .card:nth-child(2) .circle {
+  background: #519751;
+}
+
+.container .card:nth-child(2) .content a {
+  background: rgb(76, 143, 135);
+  color: white;
+}
+
+
+.container .card:nth-child(3) .circle {
+  background: #519751;
+}
+
+.container .card:nth-child(3) .content a {
+  background: rgb(76, 143, 135);
+  color: white;
+}
+
+
+@keyframes colorChange {
+  0% {
+    color: #fff;
+  }
+
+  50% {
+    color: #b1b493;
+  }
+
+  80% {
+    color: #4f8a8b;
+  }
+
+  100% {
+    color: #fff;
+  }
+}
+
+/* =======================Responsive Breakpoint ========================== */
+
+@media only screen and (max-width: 992px) {
+  /* Add responsive styles for max-width 992px */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Add responsive styles for max-width 768px */
+}
